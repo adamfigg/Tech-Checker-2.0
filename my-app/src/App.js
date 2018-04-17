@@ -34,7 +34,7 @@ class App extends Component {
 
         <ul>
           {this.state.companyList.map((company, i) => {
-            return <li> You could work at {company.name} if you know how to code with {company.techUsed} </li>
+            return <li> This is a test. You could work at {company.name} if you know how to code with {company.techUsed} </li>
           })}
         </ul>
       </div>
